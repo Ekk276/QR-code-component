@@ -1,3 +1,53 @@
 body{
-    back
+    background-color: rgb(189, 215, 228);
+    width: 100vh;
+    height: 100vh;
+}
+
+.card {
+background-color: hsl(0, 0%, 100%);
+border-radius: 10px;
+height: 550px;
+width: 350px;
+
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.QR-background {
+    display: flex;
+    background-color: #2D7DFA;
+    border-radius: 10px;
+    height: 55%;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+img {
+width: 100%;
+border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+} 
+.firstP {
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.secondP {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
 }
